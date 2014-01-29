@@ -25,5 +25,21 @@ for more details.
 ============
 For Mac OS
 
+cd ~
 cp dotfiles/mac/init_mac .
 ./init_mac
+
+============
+For Linux (to use it as standalone)
+
+cd ~
+cp dotfiles/init_linux .
+./init_linux
+
+============
+
+For Cygwin
+
+cd ~
+cp dotfiles/cygwin/init_cygwin .
+./init_cygwin

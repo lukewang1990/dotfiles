@@ -3,17 +3,22 @@
 if [ -f .screenrc ]; then
 	mv .screenrc .screenrc~
 fi
-ln -s dotfiles/.screenrc .
+ln -sb dotfiles/.screenrc .
 
 if [ -f .bash_profile ]; then
 	mv .bash_profile .bash_profile~
 fi
-ln -s dotfiles/mac/.bash_profile .
+ln -sb dotfiles/.bash_profile .
 
 if [ -f .bashrc ]; then
 	mv .bashrc .bashrc~
 fi
-ln -s dotfiles/mac/.bashrc .
+ln -sb dotfiles/cygwin/.bashrc .
+
+if [ -f .bashrc_custom ]; then
+	mv .bashrc_custom .bashrc_custom~
+fi
+ln -sb dotfiles/.bashrc_custom .
 
 if [ -d .emacs.d ]; then
 	mv .emacs.d .emacs.d~
@@ -23,9 +28,10 @@ ln -s dotfiles/.emacs.d .
 if [ -f .vimrc ]; then
 	mv .vimrc .vimrc~
 fi
-ln -s dotfiles/.vimrc .
+ln -sb dotfiles/.vimrc .
 
 if [ -f .gitconfig ]; then
 	mv .gitconfig .gitconfig~
 fi
-ln -s dotfiles/.gitconfig .
+ln -sb dotfiles/.gitconfig .
+
