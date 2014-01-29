@@ -1,0 +1,11 @@
+[alias]
+	st = status
+	ci = commit -v
+	co = checkout
+	br = branch
+	rb = rebase
+	df = diff
+	lg = log -p
+[user]
+	name = Luke Wang
+	email = luke.wang1990@gmail.com
