@@ -9,3 +9,5 @@
 [user]
 	name = Luke Wang
 	email = luke.wang1990@gmail.com
+[push]
+	default = matching

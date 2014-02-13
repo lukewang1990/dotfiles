@@ -22,6 +22,11 @@ alias cl='clear'
 alias du='du -ch --max-depth=1'
 alias treeacl='tree -A -C -L 2'
 
+alias gcc='gcc-4.9'
+alias cc='gcc-4.9'
+alias g++='g++-4.9'
+alias c++='c++-4.9'
+
 alias em='emacs -nw'     # No X11 windows
 alias eqq='emacs -nw -Q' # No config and no X11
 export EDITOR='emacs -nw'
